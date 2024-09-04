@@ -1,0 +1,158 @@
+*{
+    font-family: "Roboto", sans-serif;
+    }
+
+body{
+    padding: 0;
+    margin: 0;
+ 
+}
+.box{
+    display: flex;
+    padding: 0;
+}
+
+.box-contactos{
+    margin: 0;
+    width: 25%;
+    background: #fff;
+    border: 1px solid #BEC1BB
+    ;
+}
+
+.perfil{
+    height: 70px;
+    border-bottom: 1px solid #BEC1BB;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box-img-perfil-maria{
+    width: 23%;
+    padding: 0;
+    margin: 0;
+
+}
+.img-perfil-maria{
+    border-radius: 50%;
+    width: 100%;
+    height: auto;
+}
+
+.box-name-perfil{
+    display: flex;
+    flex-direction: column;
+    width: 47%;
+    padding: 0 7px;
+    margin: 0;
+   
+}
+.nombre-usuario{
+    padding: 0;
+    margin: 0;
+}
+
+.status-usuario{
+    color: #BEC1BB;
+    font-size: 12PX;
+}
+
+
+.box-icono-menu{
+    width: 25%;
+}
+#icono-menu, #icono-comentario{
+    width: 25%;
+    color: #BEC1BB;
+    margin: 0 4px;
+}
+.box-chat{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+    background-color: #f8f8f8;
+    border: 1px solid #BEC1BB
+}
+
+.imagen-manos{
+    width: 250px;
+    height: auto;
+    border-radius: 4%;
+    
+}
+
+h2{
+    font-size: 45px;
+    margin: 15px 0px 0px 0px;
+}
+.p-nuevo-chat{
+    width: 50%;
+    text-align: center;
+
+}
+
+.div-btn-nuevo-chat{
+    height: 100px;
+    border-bottom: 1px solid #BEC1BB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-nuevo-chat{
+    background-color: #a491d2;
+    padding: 10px;
+    color: #fff;
+    border: 0;
+    width: 160px;
+
+}
+
+.btn-nuevo-chat:hover{
+    background-color: #7b68a8;
+
+}
+
+.box-contacto-individual{
+    height: 70px;
+    border-bottom: 1px solid #BEC1BB;
+}
+
+/* estilos contastos */
+
+.box-contacto-individual{
+
+    display: flex;
+    align-items: center;
+    padding: 3px;
+}
+
+.box-img-contacto{
+    width: 25%;
+    padding: 3px;
+}
+
+.img-contacto{
+    width: 100%;
+    border-radius: 50%;
+}
+
+.box-contacto{
+    padding: 3px;
+    display: block;
+}
+
+.nombre-contacto, .status-contacto{
+    margin:0 5px;    
+    padding: 0; 
+}
+
+.status-contacto{
+    font-size: 0.7rem;
+}
+
+
+
